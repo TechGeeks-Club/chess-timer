@@ -6,7 +6,7 @@ class TimerProvider extends ChangeNotifier{
   
   late final TimerModel timerModel;
   
-  late final Timer countdownTimer;
+  late Timer countdownTimer;
   late Duration myClock;
   bool timeEnd = false;
   Duration alreadyAdded = const Duration(seconds: 0);
@@ -25,7 +25,6 @@ class TimerProvider extends ChangeNotifier{
       alreadyAdded = Duration(seconds: alreadyAdded.inSeconds + timerModel.addedTime.inSeconds);
       notifyListeners();
     }
-    
     countdownTimer = Timer.periodic(const Duration(seconds: 1), (timer) {setCountDown();});
   }
 
