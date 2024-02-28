@@ -3,12 +3,6 @@ class TimerModel {
   late final Duration addedTime ;
   late final Duration totalAddedTime;
 
-  // Duration decrementBy = const Duration(seconds: 1);  
+  TimerModel({required this.totalTime,required this.totalAddedTime ,required this.addedTime});
 
-  TimerModel({required int totalTimeInMinutes , required int addedTimeInMinutes , required int totalAddedTimeInMinutes}){
-    totalTime = Duration(minutes: totalTimeInMinutes);
-    totalAddedTime = Duration(minutes: totalAddedTimeInMinutes);
-    addedTime = Duration(minutes: addedTimeInMinutes);
-  }
-  
 }
