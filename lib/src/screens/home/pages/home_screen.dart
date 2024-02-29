@@ -1,6 +1,4 @@
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:chess_timer/src/core/constant/sc_color.dart';
-import 'package:chess_timer/src/core/constant/sc_font.dart';
 import 'package:chess_timer/src/core/constant/sc_size.dart';
 import 'package:chess_timer/src/screens/home/widgets/user_box.dart';
 import 'package:flutter/material.dart';
