@@ -6,7 +6,7 @@ class ScSize {
   static double getWidth(BuildContext context) => MediaQuery.of(context).size.width;
 
   // static const double radius_big = 30;
-  static const double radius_meduim = 39;
+  static const double radius_meduim = 60;
   // static const double radius_small = 8;
 
 }
