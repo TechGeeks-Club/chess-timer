@@ -1,8 +1,8 @@
 class TimerModel {
-  late final Duration totalTime;
-  late final Duration addedTime ;
-  late final Duration totalAddedTime;
+  final Duration totalTime;
+  final Duration addedTime ;
+  final Duration totalAddedTime;
 
-  TimerModel({required this.totalTime,required this.totalAddedTime ,required this.addedTime});
+  const TimerModel({required this.totalTime,required this.totalAddedTime ,required this.addedTime});
 
 }
