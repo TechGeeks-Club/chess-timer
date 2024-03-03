@@ -16,10 +16,13 @@ class UserBox extends StatelessWidget {
 
     return Container(
       // height: height*0.4,
-      decoration: BoxDecoration(
-        
-        color: ScColor.color_1,
-        borderRadius: const BorderRadius.only(topLeft: Radius.circular(ScSize.radius_meduim),topRight: Radius.circular(ScSize.radius_meduim)),
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+                image: AssetImage('images/gradient.png'),
+                fit: BoxFit.cover,
+              ),
+        // color: ScColor.color_1,
+        borderRadius: BorderRadius.only(topLeft: Radius.circular(ScSize.radius_meduim),topRight: Radius.circular(ScSize.radius_meduim)),
       ),
       child: Padding(
         padding: EdgeInsets.symmetric(vertical: height*0.03),
