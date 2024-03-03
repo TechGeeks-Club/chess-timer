@@ -1,4 +1,4 @@
-import 'package:chess_timer/src/core/constant/ScSize.dart';
+import 'package:chess_timer/src/core/constant/sc_size.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
